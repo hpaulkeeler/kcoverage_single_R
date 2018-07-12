@@ -1,5 +1,7 @@
 # kcoverage_single_R
 
+REQUIREMENTS: The R packages R2Cuba and randtoolbox for functions "cuhre" and "sobol" called funJn.R
+
 The scripts calculate the k-coverage probability (based on SINR* values) in a single-tier cellular network using a method based on a homogeneous Poisson process model. More details are found in the (submitted) work [1], which presents the model that these scripts are based on.
 
 The script funProbCov.R uses a inclusion-exclusion-like formula and two types of integral to calculate the k-coverage probability in a network with log-normal shadowing (though the shadowing distribution can be somewhat arbitrary [1]) and without fading.
